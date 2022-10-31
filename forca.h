@@ -1,0 +1,14 @@
+void linha();
+void titulo(char titulo[]);
+void abertura();
+void leChute();
+int testaChute(char letra);
+void desenhaBoneco();
+void desenhaForca();
+int acertou();
+int validaTentativas();
+void escolhePalavra();
+void erro();
+void inserirPalavra();
+void exibeResultado();
+int chutesErrados();
