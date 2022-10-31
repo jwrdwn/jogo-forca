@@ -6,7 +6,7 @@
 #define TAMANHO_PALAVRA 20
 #define N 49
 
-#include "forca.h"
+#include "funcoes.h"
 
 char palavra[TAMANHO_PALAVRA], chutes[26];
 int chutesDados = 0;
@@ -65,7 +65,7 @@ void inserirPalavra() {
     if(respostaAdicionaPalavra == 's') {
         
         FILE *f;
-        f = fopen("palavras.txt", "r+");
+        f = fopen("banco-de-palavras.txt", "r+");
         erro(f);
         
         char novaPalavra[TAMANHO_PALAVRA];
@@ -94,7 +94,7 @@ void inserirPalavra() {
 
 void escolhePalavra() {
     FILE *f;
-    f = fopen("palavras.txt", "r");
+    f = fopen("banco-de-palavras.txt", "r");
 
     erro(f);
     
