@@ -1,2 +1,4 @@
-# jogo-forca
-Jogo da forca desenvolvido em curso da Alura
+# Jogo da Forca
+```
+Jogo da forca desenvolvido em C, seguindo curso da Alura :)
+```
